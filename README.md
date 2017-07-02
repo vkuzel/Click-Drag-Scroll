@@ -11,9 +11,4 @@ Useful for touch-screen kiosks.
 
 # Installation
 
-Install the extension into your browser from the [installer page](https://github.com/vkuzel/Click-Drag-Scroll/raw/master/installer.html).
-
-
-
-
-https://addons.mozilla.org/firefox/downloads/latest/drag-2-move/addon-77700-latest.xpi?src=search
+Install the extension into your browser from the [installer page](https://htmlpreview.github.io/?https://github.com/vkuzel/Click-Drag-Scroll/blob/master/installer.html).
