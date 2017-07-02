@@ -1,5 +1,5 @@
 {
-  "description": "Allows you to scroll a page by dragging it by left mouse button. It will consume mouse events. Scrolls only whole window and over the Y axis. Check out source code: ",
+  "description": "Allows you to scroll a page by dragging it by left mouse button. It will consume mouse events. Scrolls only whole window and over the Y axis. Check out source code: https://github.com/vkuzel/Click-Drag-Scroll/",
   "manifest_version": 2,
   "name": "Click Drag Scroll",
   "version": "1.1",
