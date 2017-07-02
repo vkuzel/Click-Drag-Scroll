@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LeftClickScroll options</title>
+</head>
+<body>
+<fieldset>
+    <legend>Options</legend>
+
+    <p>
+        <label>If an user moves a mouse more that <input type="number" id="significantMoveThreshold"> pixels, while
+            holding its left button down, it will be considered as drag a page movement and click or mouseup events will
+            be consumed.</label>
+    </p>
+
+    <p>
+        <label><input type="checkbox" id="showLogMessages"> Show log messages into web console. Tells you about consumed
+            mouse events.</label>
+    </p>
+
+    <button id="save">Save</button>
+</fieldset>
+<script type="text/javascript" src="options.js"></script>
+</body>
+</html>

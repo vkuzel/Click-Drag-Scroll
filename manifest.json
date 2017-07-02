@@ -1,0 +1,31 @@
+{
+  "description": "Allows you to scroll a page by dragging it by left mouse button. It will consume mouse events. Scrolls only whole window and over the Y axis. Check out source code: ",
+  "manifest_version": 2,
+  "name": "Click Drag Scroll",
+  "version": "1.0",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/borderify",
+  "icons": {
+    "48": "icons/click-drag-scroll-48.png",
+    "96": "icons/click-drag-scroll-96.png",
+    "128": "icons/click-drag-scroll-128.png"
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "<all_urls>",
+    "activeTab"
+  ],
+  "options_ui": {
+    "page": "options/options.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "plugin/click-drag-scroll.js"
+      ]
+    }
+  ]
+}
