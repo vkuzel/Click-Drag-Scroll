@@ -11,4 +11,4 @@ Useful for touch-screen kiosks.
 
 # Installation
 
-You can install it into your browser from the file [web-ext-artifacts/click_drag_scroll-1.0-an+fx.xpi].
+You can install it into your browser from the file [`web-ext-artifacts/click_drag_scroll-1.0-an+fx.xpi`].
