@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Click Drag Scroll Installer</title>
+</head>
+<body>
+<script type="application/javascript">
+    <!--
+    function install(aEvent) {
+        for (var a = aEvent.target; a.href === undefined;) a = a.parentNode;
+        var params = {
+            "Foo": {
+                URL: aEvent.target.href,
+                IconURL: aEvent.target.getAttribute("iconURL"),
+                Hash: aEvent.target.getAttribute("hash"),
+                toString: function () {
+                    return this.URL;
+                }
+            }
+        };
+        InstallTrigger.install(params);
+
+        return false;
+    }
+    //-->
+</script>
+
+<p>
+    <a href="https://github.com/vkuzel/Click-Drag-Scroll/raw/master/web-ext-artifacts/click_drag_scroll-1.1-an%2Bfx.xpi"
+       iconURL="https://github.com/vkuzel/Click-Drag-Scroll/raw/master/icons/click-drag-scroll-128.png"
+       hash="sha1:b15dfbc004b33b222ce2958cd2dcfe72982221f6"
+       onclick="return install(event);">Install Extension!</a> You should open this page from Firefox.
+</p>
+</body>
+</html>
