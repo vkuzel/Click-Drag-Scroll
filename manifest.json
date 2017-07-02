@@ -3,7 +3,7 @@
   "manifest_version": 2,
   "name": "Click Drag Scroll",
   "version": "1.1",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/borderify",
+  "homepage_url": "https://github.com/vkuzel/Click-Drag-Scroll/",
   "icons": {
     "48": "icons/click-drag-scroll-48.png",
     "96": "icons/click-drag-scroll-96.png",
