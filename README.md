@@ -12,3 +12,8 @@ Useful for touch-screen kiosks.
 # Installation
 
 Install the extension into your browser from the [installer page](https://htmlpreview.github.io/?https://github.com/vkuzel/Click-Drag-Scroll/blob/master/installer.html).
+
+# Development
+
+* Install web-ext `npm install -g web-ext`
+* Go to the extension's directory and run `web-ext run` 

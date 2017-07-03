@@ -4,7 +4,6 @@ var showLogMessages;
 
 function loadOptions() {
     browser.storage.local.get(function (options) {
-        console.log('options', options);
         significantMoveThreshold = options.significantMoveThreshold || 5;
         showLogMessages = !!options.showLogMessages;
     });
