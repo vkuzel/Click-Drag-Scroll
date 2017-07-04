@@ -17,3 +17,12 @@ Install the extension into your browser from the [installer page](https://htmlpr
 
 * Install web-ext `npm install -g web-ext`
 * Go to the extension's directory and run `web-ext run` 
+
+# Deployment
+
+* Build & sign the project (you will need Mozilla's API key and password to do that).
+
+        web-ext sign --api-key=${AMO_JWT_ISSUER} --api-secret=${AMO_JWT_SECRET}
+
+* Compute the sha1 sum of the generated xpi file. On MacOS you can run: `shasum <filename>`
+* Update the version and computed hash in the `installer.html` file.
